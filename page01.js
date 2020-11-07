@@ -3,9 +3,9 @@ $(document).ready(function() {
 
     // code to change the image
 
-    $("#but4").click(function() {
-        var y = $("img").attr("data-alt")
-        $("img").attr("src", y);
+    $("img").click(function() {
+        var y = $(this).attr("data-alt")
+        $(this).attr("src", y);
     })
 
 
