@@ -19,5 +19,19 @@ $(document).ready(function() {
 
     })
 
+    // reminder on how to do multiple event handlers
+
+    $("input").on({
+
+        focus: function() {
+            $(this).css("background-color", "lightgrey")
+        }, // important to put comma
+
+        blur: function() {
+            $(this).css("background-color", "white")
+        }
+
+    })
+
 
 });
