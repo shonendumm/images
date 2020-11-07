@@ -13,7 +13,11 @@ $(document).ready(function() {
     })
 
     $("input").focus(function() {
-        $(this).css("background-color", "green")
+        $(this).css("background-color", "white")
+    })
+
+    $("input").blur(function() {
+        $(this).css("background-color", "lightblue")
     })
 
 
