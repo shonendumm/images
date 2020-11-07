@@ -8,7 +8,7 @@ $(document).ready(function() {
         $("p").hide();
     })
 
-    $("#alerthere").mouseenter(function() {
+    $("#alerthere").mousedown(function() {
         alert("hello")
     })
 
