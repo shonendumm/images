@@ -5,7 +5,7 @@ $(document).ready(function() {
     });
 
     $("button").click(function() {
-        $("p").hide();
+        $("p").hide(1000);
     })
 
     $("#alert_here").mousedown(function() {
