@@ -3,6 +3,11 @@ $(document).ready(function() {
 
     // code to change the image
 
+    $("#but4").click(function() {
+        var y = $("img").attr("data-alt")
+        $("img").attr("src", y);
+    })
+
 
 
     // previous code stuff on buttons and getting/setting html attributes
