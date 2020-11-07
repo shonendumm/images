@@ -4,8 +4,14 @@ $(document).ready(function() {
     // code to change the image
 
     $("img").click(function() {
-        var y = $(this).attr("data-alt")
-        $(this).attr("src", y);
+        var b = $(this).attr("data-alt")
+        var a = $(this).attr("alt")
+        var x = $(this).attr("src")
+        if (x == a) {
+            $(this).attr("src", b);
+        } else {
+            $(this).attr("src", a);
+        }
     })
 
 
