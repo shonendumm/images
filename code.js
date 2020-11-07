@@ -12,12 +12,14 @@ $(document).ready(function() {
         alert("hello")
     })
 
-    $("input").focus(function() {
-        $(this).css("background-color", "white")
-    })
+    $("input").on({
+        focus: function() {
+            $(this).css("background-color", "white")
+        },
+        blur: function() {
+            $(this).css("background-color", "lightblue")
+        }
 
-    $("input").blur(function() {
-        $(this).css("background-color", "lightblue")
     })
 
 
