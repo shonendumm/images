@@ -8,8 +8,13 @@ $(document).ready(function() {
         $("p").hide();
     })
 
-    $("#alerthere").mousedown(function() {
+    $("#alert_here").mousedown(function() {
         alert("hello")
     })
+
+    $("input").focus(function() {
+        $(this).css("background-color", "green")
+    })
+
 
 });
