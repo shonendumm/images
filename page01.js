@@ -1,6 +1,11 @@
 $(document).ready(function() {
     // alert("hello")
 
+    // code to change the image
+
+
+
+    // previous code stuff on buttons and getting/setting html attributes
     $("#but1").click(function() {
 
         var x = $("a").attr("href");
