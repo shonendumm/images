@@ -5,7 +5,7 @@ $(document).ready(function() {
     });
 
     $("button").click(function() {
-        $("p").hide(1000);
+        $("p").toggle(1000); // toggle is to hide or show
     })
 
     $("#alert_here").mousedown(function() {
